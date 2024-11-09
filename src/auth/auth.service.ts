@@ -51,6 +51,5 @@ export class AuthService {
         if(error.code === 'P2002') throw new ForbiddenException('Incorrect Credentials')
       }
     }
-
   }
 }
